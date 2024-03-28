@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QB alumini application">
+
+
+	<listeners>
+		<listener class-name="utilities.Listeners" />
+	</listeners>
+
+	<test name="Qb alumini in android devices">
+		<classes>
+			<class name="runner.TestRunnerTests" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
